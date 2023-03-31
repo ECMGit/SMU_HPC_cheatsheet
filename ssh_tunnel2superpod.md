@@ -14,6 +14,8 @@ once you login, remember the login node name, you can find in your terminal: <yo
 SuperPod: `srun -N 1 -G 1 -c 10 --mem=128G --time=2:00:00 --pty $SHELL`
 M2(p100):
 `srun -p gpgpu-1 --gres=gpu:1 --mem=250G --time=2:00:00 --pty $SHELL`
+M2(v100x8) 8hrs:
+`srun -p v100x8 --gres=gpu:1 --mem=128G --time=8:00:00 --pty $SHELL`
 
 ## Step3: Load Module
 e.g. `module load spack conda`
