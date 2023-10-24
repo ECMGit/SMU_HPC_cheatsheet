@@ -49,7 +49,7 @@ jupyter notebook --no-browser --port $port
 #SBATCH -t 180                    # maximum runtime in minutes
 #SBATCH -c 12                     # request 12 cpus    
 #SBATCH -G 1                      # request 1 gpu a100
-#SBATCH -D /work/users/tuev       # link to your folder
+#SBATCH -D /work/users/<username> # link to your folder
 #SBATCH --mem=32gb                # request 32gb memory
 #SBATCH --mail-user junhaos@smu.edu  # request to email to your emailID
 #SBATCH --mail-type=end           # request to mail when the model **end**

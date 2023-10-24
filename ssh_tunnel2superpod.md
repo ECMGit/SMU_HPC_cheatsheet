@@ -4,10 +4,10 @@ email: junhaos@smu.edu
 
 OS:MacOS/Linux
 ## Step1: login to SuperPod/M2 and port forwarding from your local machine to SuperPod/M2 login node
-let's use port 8889,  
+let's use port 8889, -C means compression, `-L [bind_address:]port:host:hostport` 
 SuperPod: `ssh -C -L 8889:localhost:8889 <username>@superpod.smu.edu`  
-M2:
-`ssh -C -L 8889:localhost:8889 <username>@m2.smu.edu`
+M3:
+`ssh -C -L 8889:localhost:8889 <username>@m3.smu.edu`
 once you login, remember the login node name, you can find in your terminal: <yourusername>@<login_node>
 
 ## Step2: request a compute node
