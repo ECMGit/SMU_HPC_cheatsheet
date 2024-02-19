@@ -30,7 +30,7 @@ run `pwd` to get the current directory, and replace `${PWD}` with the output of 
 `apptainer exec instance://mysql mysqld --initialize --init-file=${PWD}/.mysqlrootpw`
 
 ### 6. Run the daemon:
-`apptainer exec instance://mysql mysqld --initialize --init-file=${PWD}/.mysqlrootpw`
+`apptainer exec instance://mysql mysqld --init-file=${PWD}/.mysqlrootpw`
 
 check if the container is running on port 3306: `lsof -i:3306`
 ### 7. Connect to the MySQL container instance:
