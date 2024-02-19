@@ -37,3 +37,6 @@ check if the container is running on port 3306: `lsof -i:3306`
 `apptasiner shell instance://mysql mysql -S mysql/run/mysqld/mysqld.sock -u root -p`
 
 Enter the password you set in step 2.
+
+
+### Once you have complete above steps you only need to start your instance and run the daemon to start the mysql server by following step 4, 6, 7.
