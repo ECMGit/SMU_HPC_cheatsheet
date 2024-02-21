@@ -34,7 +34,7 @@ run `pwd` to get the current directory, and replace `${PWD}` with the output of 
 
 check if the container is running on port 3306: `lsof -i:3306`
 ### 7. Connect to the MySQL container instance:
-`apptasiner shell instance://mysql mysql -S mysql/run/mysqld/mysqld.sock -u root -p`
+`apptainer shell instance://mysql mysql -S mysql/run/mysqld/mysqld.sock -u root -p`
 
 Enter the password you set in step 2.
 
