@@ -16,5 +16,7 @@ Prerequisite:
 The Terminal will not use session in your running container, you need to:
 1. `squeue` to check your running jobid
 2. `srun --overlap --jobid <jobid> --container-name <container name> --pty bash`
+3. run jupyter lab: `jupyter lab --ip=0.0.0.0 --no-browser`
+   
 
 done
