@@ -18,7 +18,7 @@ Prerequisite:
 ## Steps:
 1. open terminal and ssh to superpod
 2. srun request node, use pyxis run with container
-   use NGC pytorch 23.10 container example: `srun -N1 -G1 -c16 --mem=128G --time=12:00:00 --container-name=pyg --container-image=nvcr.io#nvidia/pytorch:23.10-py3 --container-mounts=./code:/code[,SRC:DST] --pty /code tunnel --accept-server-license-terms`
+   use NGC pytorch 23.10 container example: `srun -N1 -G1 -c16 --mem=128G --time=12:00:00 --container-name=pytorch-test --container-image=nvcr.io#nvidia/pytorch:23.10-py3 --container-mounts=./code:/code --pty /code tunnel --accept-server-license-terms`
 
 3. open vscode and connect to the running node by tunnel
 done
