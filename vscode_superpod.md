@@ -21,5 +21,7 @@ Prerequisite:
    use NGC pytorch 23.10 container example: `srun -N1 -G1 -c16 --mem=128G --time=12:00:00 --container-name=pytorch-test --container-image=nvcr.io#nvidia/pytorch:23.10-py3 --container-mounts=./code:/code --pty /code tunnel --accept-server-license-terms`
 
 3. open vscode and connect to the running node by tunnel
+
 done
+
 
