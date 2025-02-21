@@ -8,7 +8,7 @@ welcome to comments and suggestions.
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
   - [SuperPod/M3](#superpodm3)
-    - [Connect to your Jupyter Server on SuperPod/M3 by ssh tunnel](ssh_tunnel2superpod.md)
+    - [Connect to your Jupyter Server on SuperPod/M3 by ssh](ssh2superpod.md)
     - [Sbatch Template](slurm_command_line.md)
     - [Apptainer for mysql Container](apptainer_cmd.md)
-    - [VSCode to a running compute node](vscode_superpod.md)
+    - [VSCode tunnel to a running compute node](vscode_sshtunnel2superpod.md)
